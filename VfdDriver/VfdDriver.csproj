@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{E82A20B7-39E7-4B59-B844-6D2EB4528A89}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>VfdDriver</RootNamespace>
+    <RootNamespace>TheResistorNetwork.Drivers.VfdDriver</RootNamespace>
     <AssemblyName>VfdDriver</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -34,6 +34,11 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VfdDisplay.cs" />
+    <Compile Include="VfdBlinkMode.cs" />
+    <Compile Include="VfdDisplayMode.cs" />
+    <Compile Include="VfdBrightness.cs" />
+    <Compile Include="VfdCursorMode.cs" />
+    <Compile Include="VfdCustomCharacterMode.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
